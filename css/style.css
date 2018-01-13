@@ -86,6 +86,11 @@ figure{
     margin-bottom: 100px;
 }
 
+#mainImage{
+    border: 5px solid #ffc815;
+    padding: 0;
+}
+
 .section-header h2 {
     margin: 0 0 15px 0;
     font-size: 45px;
@@ -338,7 +343,7 @@ header nav ul.navbar-nav li.active a:after {
 .intro .intro-inner .intro-image .image-frame {
     max-height: 700px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .intro .intro-inner .intro-image .image-frame > img {
@@ -385,7 +390,7 @@ header nav ul.navbar-nav li.active a:after {
 }
 
 .about .about-content .about-info > p {
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     line-height: 29px;
 }
 
@@ -393,7 +398,7 @@ header nav ul.navbar-nav li.active a:after {
     margin-bottom: 90px;
 }
 .about-info {
-  padding-top: 43px;
+  padding-top: 0px;
 }
 .about .about-content .about-info a.about-btn {
     background: #ffc815;
