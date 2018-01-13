@@ -1,0 +1,416 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>MyResume - Personal Portfolio & CV Template</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="EcologyTheme">
+	<meta name="copyright" content="EcologyTheme">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2017-01-04T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/logo.png);}
+		a{color:#F48E99;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#282828;color:#fff;}
+		#documenter_sidebar ul a{}
+		#documenter_sidebar ul{}
+		#documenter_sidebar ul a{color:#fff;}
+		#documenter_sidebar ul a:hover{color:#F48E99;}
+		#documenter_sidebar ul a.current{color:#F48E99;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-mypress">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#html_file_structure" title="HTML File Structure">HTML File Structure</a></li>
+			<li><a href="#css_file_structure" title="CSS File Structure">CSS File Structure</a></li>
+			<li><a href="#font_used" title="Font Used">Font Used</a></li>
+			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+			<li><a href="#top_navigation" title="Top Navigation">Top Navigation</a></li>
+			<li><a href="#logo_change" title="Logo Change">Logo Change</a></li>
+			<li><a href="#icons" title="Icons">Icons</a></li>
+			<li><a href="#portfolio_gallery" title="Portfolio Gallery">Portfolio Gallery</a></li>
+			<li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright EcologyTheme 2017<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>MyResume</h1>
+	<h2>Personal Portfolio & CV Template</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>Created: 19 Aug 2017</li>
+	<li>Latest update: 19 Aug 2017</li>
+	<li>By: EcologyTheme</li>
+	<li><a href=""></a></li>
+	<li>Email: <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#108;&#111;&#103;&#121;&#116;&#104;&#101;&#109;&#101;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#108;&#111;&#103;&#121;&#116;&#104;&#101;&#109;&#101;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form here. Thanks so much!</p>
+	</section>
+	
+	<section id="html_file_structure">
+	<div class="page-header"><h3>HTML File Structure</h3><hr class="notop"></div>
+<p>
+	The general template structure is the same throughout the template. Here is the general structure.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&nbsp;&nbsp;&nbsp; ...
+&lt;/head&gt;
+&lt;body&gt;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Header Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;header&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;nav class=&quot;navbar&quot; id=&quot;...&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/nav&gt;
+&nbsp;&nbsp;&nbsp; &lt;/header&gt;&lt;!-- Ends: Header --&gt;
+
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intro Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;intro&quot; id=&quot;intro&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;about&quot; id=&quot;about&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My Skills
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;skills&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Portfolio Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;portfolio&quot; id=&quot;portfolio&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resume Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;resume&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Testimonial Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;testimonial&quot; id=&quot;testimonial&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blog Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;blog&quot; id=&quot;blog&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact Section
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;section class=&quot;contact&quot; id=&quot;contact&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ==========================
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footer
+&nbsp;&nbsp;&nbsp; =========================== --&gt;
+&nbsp;&nbsp;&nbsp; &lt;footer&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp;&nbsp; &lt;/footer&gt;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp; &lt;!-- ============================
+&nbsp;&nbsp;&nbsp; JavaScript Files
+&nbsp;&nbsp;&nbsp; ============================= --&gt;
+&nbsp;&nbsp; &nbsp;...
+&nbsp;&nbsp; &nbsp;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+</section>
+<section id="css_file_structure">
+	<div class="page-header"><h3>CSS File Structure</h3><hr class="notop"></div>
+<p>
+	We are using 9 css files which are seperated to extend usability and customization. If you are going to use this theme, we recommend to merge all the css into one file to reduce http queries.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Bootstrap CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/bootstrap.min.css&quot;&gt;
+&lt;!-- Font Awesome --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/font-awesome.min.css&quot;&gt;
+&lt;!-- Owl Carousel --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/owl.carousel.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/owl.transitions.css&quot;&gt;
+&lt;!-- Normalize CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/normalize.css&quot;&gt;
+&lt;!-- Magnific Popup --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/magnific-popup.css&quot;&gt;
+&lt;!-- Custom CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/assets/responsive.css&quot;&gt;</pre>
+<p>
+	If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+</section>
+<section id="font_used">
+	<div class="page-header"><h3>Font Used</h3><hr class="notop"></div>
+<p>
+	We have used three types of font throughout the template.</p>
+<p>
+	These are:</p>
+<p>
+	1. Roboto - Heading font</p>
+<p>
+	2. Dosis - Body Font</p>
+<p>
+	3. Sacramento - Signature Font</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Google Fonts --&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Dosis:300,400,500&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Sacramento&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+<p>
+	<code style="margin: 0px; padding: 2px 4px; border: 0px; outline: 0px; font-size: 12.6px; font-family: 'Courier New', Courier, monospace; vertical-align: baseline; color: rgb(199, 37, 78); border-radius: 4px; line-height: 21px; background-color: rgb(249, 242, 244);">All of the fonts are available on google fonts. You can choose other fonts from google directory. And link them at head</code></p>
+</section>
+<section id="javascript">
+	<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+<p>
+	This theme imports 10 Javascript files.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- ============================
+JavaScript Files
+============================= --&gt;
+&lt;!-- jQuery --&gt;
+&lt;script src=&quot;https://code.jquery.com/jquery-1.12.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Masonry JS --&gt;
+&lt;script src=&quot;js/assets/isotope.pkgd.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Bootstrap JS --&gt;
+&lt;script src=&quot;js/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Owl Carousel --&gt;
+&lt;script src=&quot;js/assets/owl.carousel.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Smooth Scroll --&gt;
+&lt;script src=&quot;js/assets/smooth-scroll.js&quot;&gt;&lt;/script&gt;
+&lt;!-- jQuery CounterUp --&gt;
+&lt;script src=&quot;http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/assets/jquery.counterup.min.js&quot;&gt;&lt;/script&gt;&nbsp;&nbsp; &nbsp;
+&lt;!-- Easy Pie Chart --&gt;
+&lt;script src=&quot;js/assets/jquery.easypiechart.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Magnific Popup --&gt;
+&lt;script src=&quot;js/assets/jquery.magnific-popup.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Mail JS --&gt;
+&lt;script src=&quot;js/assets/mail.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Custom JS --&gt;
+&lt;script src=&quot;js/plugins.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/custom.js&quot;&gt;&lt;/script&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	All jQuery files are necessary</p>
+</section>
+<section id="top_navigation">
+	<div class="page-header"><h3>Top Navigation</h3><hr class="notop"></div>
+<p>
+	<strong>HTML Code Navigation Bar:</strong></p>
+<pre class="prettyprint lang-html linenums">
+<strong>&lt;header&gt;
+&nbsp;&nbsp; &nbsp;&lt;nav class=&quot;navbar&quot; id=&quot;main-nav&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;navbar-header&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#mypress-navbar-collapse&quot; aria-expanded=&quot;false&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/button&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;mypress-navbar-collapse&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li class=&quot;active&quot;&gt;&lt;a data-scroll href=&quot;#intro&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a data-scroll href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a data-scroll href=&quot;#portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a data-scroll href=&quot;#testimonial&quot;&gt;Testimonial&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a data-scroll href=&quot;#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a data-scroll href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/ul&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&lt;/nav&gt;
+&lt;/header&gt;</strong></pre>
+</section>
+<section id="logo_change">
+	<div class="page-header"><h3>Logo Change</h3><hr class="notop"></div>
+<p>
+	It&#39;s very easy to change your logo. Just take a look at the code below. Change the logo link to your own image or text logo.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;section class=&quot;intro&quot; id=&quot;intro&quot;&gt;
+&nbsp;&nbsp; &nbsp;&lt;div class=&quot;container&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;row&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;col-sm-12&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;div class=&quot;logo&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<strong>&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/logo.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;</strong>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/div&gt;&lt;!-- Ends: .logo --&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/div&gt;</pre>
+</section>
+<section id="icons">
+	<div class="page-header"><h3>Icons</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(248, 248, 248);">
+	We have used latest<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;"><a href="http://fontawesome.io/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: #DAB418; text-decoration: none; cursor: pointer;"> Font Awesome</a></span> throughout the template. So there are 1000+ font icons come with it.</p>
+<p>
+	Visit Here for more info:</p>
+<p>
+	<strong>http://fontawesome.io/icons/</strong></p>
+</section>
+<section id="portfolio_gallery">
+	<div class="page-header"><h3>Portfolio Gallery</h3><hr class="notop"></div>
+<p>
+	To change the image in Portfolio Section just change the image url in the below code.</p>
+<div class="alert alert-error">
+	<p class="alert alert-error">
+		<strong>&lt;img src=&quot;images/portfolio01.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;</strong></p>
+</div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;grid&quot;&gt;
+&nbsp;&nbsp; &nbsp;&lt;div class=&quot;grid-item big metal&quot; data-category=&quot;metal&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;figure&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<strong>&lt;img src=&quot;images/portfolio01.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;</strong>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;figcaption&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;ul class=&quot;list-unstyled list-inline&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;<strong>&lt;a href=&quot;images/portfolio01.jpg&quot; class=&quot;port-view&quot;&gt;</strong>&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/ul&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;h3&gt;&lt;a href=&quot;&quot;&gt;Project Title Goes Here&lt;/a&gt;&lt;/h3&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/figcaption&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;/figure&gt;
+&nbsp;&nbsp; &nbsp;&lt;/div&gt;</pre>
+</section>
+<section id="contact_form">
+	<div class="page-header"><h3>Contact Form</h3><hr class="notop"></div>
+<p>
+	You have nothings to do here but just change your email to get messages from users. To do this follow these steps,</p>
+<p>
+	Goto <strong>send.php</strong> &gt; Change your email as follows</p>
+<pre class="prettyprint lang-js linenums">
+// Set the recipient email address.
+// FIXME: Update this to your desired email address.
+$recipient = &quot;&#109;&#97;&#105;&#108;&#64;&#121;&#111;&#117;&#114;&#100;&#111;&#109;&#97;&#105;&#110;&#46;&#99;&#111;&#109;&quot;;
+</pre>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>
+	Once again, thank you so much for purchasing this theme. We&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but we&#39;ll do our best to assist.</p>
+<p>
+	<strong>EcologyTheme</strong></p>
+<p>
+	<strong>S&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#108;&#111;&#103;&#121;&#116;&#104;&#101;&#109;&#101;&#46;&#99;&#111;&#109;</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
