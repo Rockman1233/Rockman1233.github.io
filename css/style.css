@@ -300,9 +300,13 @@ header nav ul.navbar-nav li.active a:after {
     border-radius: 25px;
     color: #ffc815;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 27px;
     position: relative;
     z-index: 1;
+}
+
+.intro-text {
+    font-size: 20px;
 }
 
 .intro .intro-inner ul.intro-btns li a:before {
