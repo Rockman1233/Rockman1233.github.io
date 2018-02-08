@@ -165,8 +165,9 @@ $(document).ready(function($) {
     /* ==============================================
         BxSlider Testimonial
     =============================================== */ 
-
+            /*
             $(".testimonials-slider").bxSlider({
+
                 adaptiveHeight: true,
                 nextSelector: ".tc-arrows .tc-arrow-right",
                 prevSelector: ".tc-arrows .tc-arrow-left",
@@ -177,7 +178,9 @@ $(document).ready(function($) {
                 pause: 5000,         // Milliseconds before progressing to next slide automatically. Use a falsey value to disable.
                 mode: 'vertical',    // Choose fade, slide
                 useCSS: false        // Boolean:  (true/false)
+
             });
+            */
 
     /* ==============================================
         Placeholder

@@ -499,7 +499,7 @@ span.percentfactor {
   height: 100%;
   width: 100%;
   opacity: 0;
-  background: rgba(241,63,15,0.87);
+  background: rgba(155, 48, 255, 0.87);
   -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
       -ms-transition: all .3s ease-in-out;
